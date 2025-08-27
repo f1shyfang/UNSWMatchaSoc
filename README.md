@@ -1,15 +1,10 @@
 # UNSW Matcha Society Website
 
-A modern, responsive website for the UNSW Matcha Society, celebrating Japanese tea culture and mindfulness.
+A modern, responsive website for the UNSW Matcha Society, celebrating matcha and mindfulness.
 
 ## 🍵 About
 
-This website was transformed from the CEUS (Chemical Engineering Undergraduate Society) website to create a beautiful, matcha-themed platform for the UNSW Matcha Society. The site features:
 
-- **Traditional Tea Ceremonies**: Information about authentic Japanese tea ceremonies
-- **Mindfulness Sessions**: Meditation and stress-relief activities
-- **Cultural Exchange**: Events promoting Japanese culture and community
-- **Weekly Matcha Tastings**: Regular events for matcha appreciation
 
 ## 🎨 Design Changes
 
@@ -25,9 +20,6 @@ This website was transformed from the CEUS (Chemical Engineering Undergraduate S
 - **Team**: Executive team with Japanese-inspired names and roles
 - **Contact**: Updated contact information and location
 
-### Removed Pages
-- Publications page (not relevant for matcha society)
-- Sponsors page (replaced with community features)
 
 ## 🚀 Features
 
@@ -68,4 +60,4 @@ This website was transformed from the CEUS (Chemical Engineering Undergraduate S
 
 ---
 
-*Celebrating Japanese tea culture and mindfulness at UNSW* 🍵✨
+*Celebrating matcha at UNSW* 🍵✨
