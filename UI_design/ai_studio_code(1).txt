@@ -1,0 +1,24 @@
+const Header = () => {
+  return (
+    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-matcha/20">
+      <div className="max-w-6xl mx-auto px-6 py-4">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <div className="w-8 h-8 bg-matcha rounded-full flex items-center justify-center">
+              <span className="text-primary-foreground text-lg">🍵</span>
+            </div>
+            <span className="text-xl font-bold text-foreground">UNSW Matcha Society</span>
+          </div>
+
+          <nav className="hidden md:flex items-center gap-8">
+            <a href="#about" className="text-muted-foreground hover:text-matcha transition-colors">About</a>
+            <a href="#events" className="text-muted-foreground hover:text-matcha transition-colors">Events</a>
+            <a href="#join" className="text-muted-foreground hover:text-matcha transition-colors">Join Us</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+  );
+};
+
+export default Header;

@@ -1,0 +1,132 @@
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
+
+const Join = () => {
+  return (
+    <section className="py-20 bg-gradient-to-br from-matcha-light/5 to-matcha/10">
+      <div className="max-w-6xl mx-auto px-6">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
+            Join Our <span className="text-matcha">Society</span>
+          </h2>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            Ready to embark on your matcha journey? Become part of our welcoming community
+            and discover the beauty of Japanese tea culture.
+          </p>
+        </div>
+
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <Card className="p-8 bg-card border-matcha/20 shadow-xl">
+              <h3 className="text-3xl font-bold text-foreground mb-6">Membership Benefits</h3>
+              <div className="space-y-4 mb-8">
+                <div className="flex items-start gap-4">
+                  <div className="w-8 h-8 bg-matcha rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <span className="text-primary-foreground text-sm">✓</span>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-foreground mb-1">Free Weekly Tastings</h4>
+                    <p className="text-muted-foreground">Access to all regular matcha tasting sessions</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="w-8 h-8 bg-matcha rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <span className="text-primary-foreground text-sm">✓</span>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-foreground mb-1">Exclusive Workshops</h4>
+                    <p className="text-muted-foreground">Member-only tea ceremony and cultural workshops</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="w-8 h-8 bg-matcha rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <span className="text-primary-foreground text-sm">✓</span>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-foreground mb-1">Discounted Events</h4>
+                    <p className="text-muted-foreground">Special pricing on social events and trips</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="w-8 h-8 bg-matcha rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <span className="text-primary-foreground text-sm">✓</span>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-foreground mb-1">Matcha Starter Kit</h4>
+                    <p className="text-muted-foreground">Welcome package with bamboo whisk and premium matcha</p>
+                  </div>
+                </div>
+              </div>
+              <div className="border-t border-matcha/20 pt-6">
+                <div className="text-center mb-6">
+                  <div className="text-3xl font-bold text-matcha mb-2">$25</div>
+                  <div className="text-muted-foreground">Annual Membership</div>
+                </div>
+                <Button className="w-full bg-matcha hover:bg-matcha-dark text-primary-foreground py-3 text-lg shadow-lg hover:shadow-xl transition-all duration-300">
+                  Become a Member
+                </Button>
+              </div>
+            </Card>
+          </div>
+
+          <div className="space-y-8">
+            <Card className="p-6 bg-card border-matcha/10">
+              <h3 className="text-2xl font-semibold text-foreground mb-4">Contact Us</h3>
+              <div className="space-y-4">
+                <div className="flex items-center gap-3">
+                  <span className="text-matcha">📧</span>
+                  <span className="text-foreground">matchasociety@unsw.edu.au</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="text-matcha">📷</span>
+                  <span className="text-foreground">@unswmatcha</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="text-matcha">⚫</span>
+                  <span className="text-foreground">Discord: UNSW Matcha Society</span>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="p-6 bg-card border-matcha/10">
+              <h3 className="text-2xl font-semibold text-foreground mb-4">Meeting Times</h3>
+              <div className="space-y-3">
+                <div>
+                  <div className="font-medium text-foreground">Weekly Tastings</div>
+                  <div className="text-muted-foreground">Wednesdays 4:00 PM - 5:30 PM</div>
+                </div>
+                <div>
+                  <div className="font-medium text-foreground">Committee Meetings</div>
+                  <div className="text-muted-foreground">First Monday of each month, 6:00 PM</div>
+                </div>
+                <div>
+                  <div className="font-medium text-foreground">Location</div>
+                  <div className="text-muted-foreground">Mathews Building, Room 204</div>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="p-6 bg-gradient-to-br from-matcha/10 to-matcha-light/10 border-matcha/20">
+              <h3 className="text-xl font-semibold text-foreground mb-3">New Member Welcome</h3>
+              <p className="text-muted-foreground mb-4">
+                First time joining? Come to any of our Wednesday tastings!
+                No prior experience needed - we welcome all levels of matcha curiosity.
+              </p>
+              <Button
+                variant="outline"
+                className="border-matcha text-matcha hover:bg-matcha hover:text-primary-foreground transition-all duration-300"
+              >
+                Visit Us This Wednesday
+              </Button>
+            </Card>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Join;
