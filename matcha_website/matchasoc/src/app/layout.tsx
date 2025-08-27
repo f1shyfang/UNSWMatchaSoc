@@ -12,10 +12,10 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: 'UNSW Matcha Society | Japanese Tea Culture & Community',
+    default: 'UNSW Matcha Society ',
     template: '%s | UNSW Matcha Society'
   },
-  description: 'The UNSW Matcha Society celebrates Japanese tea culture and mindfulness. Join our community for traditional tea ceremonies, matcha tastings, and cultural exchange events.',
+  description: 'The UNSW Matcha Society celebrates  Matcha and mindfulness. Join our community for matcha tastings, and events.',
   keywords: [
     'UNSW Matcha Society',
     'Japanese Tea Culture',
